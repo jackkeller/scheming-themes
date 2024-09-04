@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Scheming and Theming</title>
+	<title>Scheming & Theming</title>
 </svelte:head>
 
 <Header />

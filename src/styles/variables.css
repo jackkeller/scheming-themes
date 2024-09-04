@@ -1,0 +1,19 @@
+:root {
+  /* named colors (personal preference */
+  --mint-cream: #f1fffa;
+  --folly: #ff495c;
+  --eerie-black: #262626;
+  --celtic-blue: #276fbf;
+  --battleship-gray: #858786;
+
+  --branding: var(--celtic-blue);
+  --on-branding: var(--mint-cream);
+  --secondary: var(--eerie-black);
+  --on-secondary: var(--mint-cream);
+  --background: var(--mint-cream);
+  --on-background: var(--eerie-black);
+}
+
+.themed {
+  --branding: var(--folly);
+}

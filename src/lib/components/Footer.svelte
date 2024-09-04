@@ -1,5 +1,5 @@
 <footer>
-	<div class="container text-sm text-center">
+	<div class="grid place-content-center text-sm h-12">
 		©️{new Date().getFullYear()} - Very Important Things
 	</div>
 </footer>

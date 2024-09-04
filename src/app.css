@@ -2,9 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import 'styles/variables.css';
 @import 'styles/layout.css';
 @import 'styles/typography.css';
-
-
-
-
