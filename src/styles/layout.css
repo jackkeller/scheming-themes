@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  grid-template-areas: 'header' 'content' 'footer';
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+  padding: 10px;
+}
+
+main {
+  grid-area: content;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  padding: 10px;
+}
+
+.container {
+  margin: 0 auto;
+}
