@@ -1,0 +1,3 @@
+pre code.hljs {
+  @apply rounded-lg mb-6 py-5 pl-7 font-mono text-lg;
+}

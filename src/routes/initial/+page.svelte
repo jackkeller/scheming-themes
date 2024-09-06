@@ -4,7 +4,19 @@
 	import 'svelte-highlight/styles/github-dark.css';
 
 	const code = `:root { 
-	--primary-color: black;
+  /* named colors (personal preference) */
+  --battleship-gray: #858786;
+  --celtic-blue: #276fbf;
+  --eerie-black: #262626;
+  --folly: #ff495c;
+  --mint-cream: #f1fffa;
+
+  --background: var(--mint-cream);
+  --on-background: var(--eerie-black);
+  --branding: var(--celtic-blue);
+  --on-branding: var(--mint-cream);
+  --secondary: var(--eerie-black);
+  --on-secondary: var(--mint-cream);
 }`;
 </script>
 
