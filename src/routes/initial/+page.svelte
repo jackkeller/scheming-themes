@@ -3,7 +3,7 @@
 	import css from 'svelte-highlight/languages/css';
 	import 'svelte-highlight/styles/github-dark.css';
 
-	const code = `:root { 
+	const initialCode = `:root { 
   /* named colors (personal preference) */
   --battleship-gray: #858786;
   --celtic-blue: #276fbf;
@@ -26,4 +26,4 @@
 	For your initial styles you want to create css varaibles in your css, you can add them like this:
 </p>
 
-<Highlight language={css} {code} />
+<Highlight language={css} code={initialCode} />

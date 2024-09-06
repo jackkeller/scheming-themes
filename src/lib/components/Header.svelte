@@ -1,4 +1,4 @@
-<header class="h-16 grid items-center">
+<header class="grid h-16 items-center">
 	<div class="container flex justify-between">
 		<div><a class="text-2xl" href="/">Scheming & Theming</a></div>
 		<nav>
@@ -10,14 +10,3 @@
 		</nav>
 	</div>
 </header>
-
-<style lang="postcss">
-	/* nav {
-		a {
-			color: #900;
-			&:hover {
-				color: #666;
-			}
-		}
-	} */
-</style>
