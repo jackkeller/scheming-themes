@@ -26,4 +26,8 @@ main a {
 
 ol {
 	@apply list-outside list-decimal pl-4 text-lg;
+
+	li {
+		@apply mb-4;
+	}
 }

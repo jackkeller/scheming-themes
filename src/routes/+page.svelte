@@ -18,7 +18,7 @@
 	>.
 </p>
 
-<h3>Here we go!</h3>
+<h3>A few different approaches</h3>
 
 <ol>
 	<li>

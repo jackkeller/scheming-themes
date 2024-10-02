@@ -7,7 +7,9 @@
 	const className = 'extending';
 
 	const extendingCode = `.extending {
-	--branding: lch(from var(--folly) calc(l + 20) calc(c - 10) h);
+	--background: var(--battleship-gray);
+	--on-background: var(--mint-cream);
+	--branding: var(--folly);
 	--on-branding: var(--eerie-black);
 }`;
 </script>
@@ -15,5 +17,10 @@
 <div class="hidden" use:useBodyClass={className}></div>
 
 <h1>Extending</h1>
+
+<p>
+	Here you will see that I have extended the properties to something completely different, maybe you
+	have different categories you want represented with alternate themes entirely.
+</p>
 
 <Highlight language={css} code={extendingCode} />
