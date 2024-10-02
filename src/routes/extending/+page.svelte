@@ -24,3 +24,8 @@
 </p>
 
 <Highlight language={css} code={extendingCode} />
+
+<p>
+	In the future I plan on going over the different css functions that we now have access to with
+	great support.
+</p>
