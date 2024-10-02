@@ -14,17 +14,6 @@
 	--on-secondary: var(--mint-cream);
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--background: var(--eerie-black);
-		--on-background: var(--mint-cream);
-		--branding: var(--celtic-blue);
-		--on-branding: var(--mint-cream);
-		--secondary: var(--eerie-black);
-		--on-secondary: var(--mint-cream);
-	}
-}
-
 .dark {
 	--background: var(--eerie-black);
 	--on-background: var(--mint-cream);
