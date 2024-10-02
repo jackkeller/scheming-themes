@@ -1,20 +1,42 @@
 :root {
-  /* named colors (personal preference) */
-  --battleship-gray: #858786;
-  --celtic-blue: #276fbf;
-  --eerie-black: #262626;
-  --folly: #ff495c;
-  --mint-cream: #f1fffa;
+	/* named colors (personal preference) */
+	--battleship-gray: #858786;
+	--celtic-blue: #276fbf;
+	--eerie-black: #262626;
+	--folly: #ff495c;
+	--mint-cream: #f1fffa;
 
-  --background: var(--mint-cream);
-  --on-background: var(--eerie-black);
-  --branding: var(--celtic-blue);
-  --on-branding: var(--mint-cream);
-  --secondary: var(--eerie-black);
-  --on-secondary: var(--mint-cream);
+	--background: var(--mint-cream);
+	--on-background: var(--eerie-black);
+	--branding: var(--celtic-blue);
+	--on-branding: var(--mint-cream);
+	--secondary: var(--eerie-black);
+	--on-secondary: var(--mint-cream);
 }
 
-.themed {
-  --branding: var(--folly);
-  --on-branding: var(--eerie-black);
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: var(--eerie-black);
+		--on-background: var(--mint-cream);
+		--branding: var(--celtic-blue);
+		--on-branding: var(--mint-cream);
+		--secondary: var(--eerie-black);
+		--on-secondary: var(--mint-cream);
+	}
+}
+
+.dark {
+	--background: var(--eerie-black);
+	--on-background: var(--mint-cream);
+	--branding: var(--celtic-blue);
+	--on-branding: var(--mint-cream);
+	--secondary: var(--eerie-black);
+	--on-secondary: var(--mint-cream);
+}
+
+.extending {
+	--background: var(--battleship-gray);
+	--on-background: var(--mint-cream);
+	--branding: var(--folly);
+	--on-branding: var(--eerie-black);
 }

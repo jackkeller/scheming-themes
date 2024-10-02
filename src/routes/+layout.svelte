@@ -4,7 +4,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import '../app.css';
 
-	const pathArray = ['', 'initial', 'themed', 'extending', 'credits'];
+	const pathArray = ['', 'getting-started', 'dark-mode', 'extending'];
 	/**
 	 * @type {{ label: string; path: string | null; }[]}
 	 */
@@ -40,7 +40,7 @@
 
 <Header />
 
-<main>
+<main class="relative">
 	<div class="container">
 		<slot></slot>
 	</div>
